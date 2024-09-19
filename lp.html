@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Landing Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(180deg, #2E6B4B 0%, #377E40 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .logo img {
+            width: 350px;
+            margin: 0 auto 20px auto;
+        }
+        
+        .heading {
+            font-size: 2.5em;
+            line-height: 1em;
+            color: #FFF;
+            font-weight: bold;
+        }
+        
+        .subheading {
+            color: #FFF;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            line-height: 1.2em;
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .option {
+            width: 250px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .option:hover {
+            transform: scale(1.05);
+        }
+
+        .welcome {
+background: linear-gradient(180deg, #FBE549 0%, #F6C540 100%);        }
+
+        .sportsbook {
+background: linear-gradient(180deg, #FBE549 0%, #F6C540 100%);        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="logo.svg" alt="Logo">
+        </div>
+
+        <!-- Heading and Text -->
+        <div class="subheading">Claim your welcome bonus or jump straight into the action.</div>
+
+        <!-- Clickable Gradient Divs -->
+        <div class="options">
+            <a href="https://brazino777.com/en/bonuses" class="option welcome">Get Welcome Bonus</a>
+            <a href="https://brazino777.com/en/game/prematch-mts" class="option sportsbook">Go to Sportsbook</a>
+        </div>
+
+          
+    </div>
+
+
+</body>
+</html>
